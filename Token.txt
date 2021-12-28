@@ -1,0 +1,47 @@
+Token:
+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
+
+Para comenzar:
+git init
+git config user.name "Lucas Quiroga"
+git config user.email "ing.lucasquiroga@outlook.com.ar"
+
+-----------------------------------------------------------------------------
+git config --global user.email "ing.lucasquiroga@outlook.com.ar"
+git config --global user.name "Lucas Quiroga"
+-----------------------------------------------------------------------------
+
+
+El repositorio:
+git remote add repo https://github.com/LucasFQuirogaH/Project.git
+
+
+Para agregar al repositorio:
+git add .
+git commit -m "initial commit"
+git push -u origin master
+
+
+
+-----------------------------------------------------------------------------
+Para clonar el repositorio:
+git clone
+git status
+git add .
+git commit -m subiendo
+git log --oneline // Informacion general del commit y donde estas parado
+
+
+Para bajar cambios realizados por otros:
+git pull origin master
+
+-----------------------------------------------------------------------------
+Para crear una rama:
+git branch rama1 //Para crear la rama
+git checkout rama1 //Para meterme a la rama
+gti branch // Para ver en que rama estoy
+
+Para juntar todo:
+git checkout master
+git merge rama1 //Unio al master todos los cambios de las rama1
+git branch -d rama1 eliminamos la rama
